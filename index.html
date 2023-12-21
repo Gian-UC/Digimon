@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://digimon.net/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./src/style/container.css">
+    <link rel="stylesheet" href="./src/style/card.css">
+    <link rel="stylesheet" href="./src/style/info-digi.css">
+
+    <title>Digimons Search</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container-bg">
+        <div class="card">
+          <section class="i-logo__digimons">
+            <img src="./src/assets/logo.png" height="70px" alt="Logo Digimon" />
+          </section>
+
+          <section class="i-img__digimon">
+            <img id="img__digimon" src="" alt="Imagem Digimon" />
+          </section>
+
+          <section class="t-nome__digimon">
+            <p id="t-name__Digimon">Hawkmon</p>
+          </section>
+
+          <section class="info-digimons">
+
+            <div class="a-info__column">
+              <p>HP</p>
+              <div class="d-hp__ext">
+                <div class="d-hp__int" id="hp__int"></div>
+              </div>
+            </div>
+
+            <div class="a-info__column">
+              <p>ATK</p>
+              <div class="d-atk__ext">
+                <div class="d-atk__int" id="atk__int"></div>
+              </div>
+            </div>
+
+            <div class="a-info__column">
+              <p>DEF</p>
+              <div class="d-def__ext">
+                <div class="d-def__int" id="def__int"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/scripts/script.js"></script>
+
+  </body>
+</html>
